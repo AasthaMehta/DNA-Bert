@@ -1,2 +1,3 @@
 # DNA-Bert
-A DNA-bert Model that is fine-tuned to predict whether the sequence has a transcription factor binding sites.
+A DNA-bert Model is fine-tuned model to predict whether the sequence has a transcription factor binding sites.
+The `demo.py` file contains a demonstration of the DNA-Bert model, designed to accurately predict the presence of transcription factor binding sites (TFBS) within DNA sequences. Leveraging transformer-based architectures, DNA-Bert is capable of learning intricate patterns and dependencies within genomic data, facilitating the identification of regions where transcription factors are likely to bind. By providing reliable predictions, the model enables researchers to prioritize experimental validation efforts and gain insights into the regulatory elements governing gene expression. The `text1.csv` dataset serves as the training and testing data for the model.
